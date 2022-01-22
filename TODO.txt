@@ -1,0 +1,4 @@
+✅Rename test.java to something better
+
+✅have test.java take a file name and output as filename.dfpwm
+
