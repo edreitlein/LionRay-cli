@@ -51,8 +51,8 @@ public class test {
             System.out.println(args[0].toString());
 
         }
-        String filePath = ".\\MyLoveShort.wav";
-        String newFile = "NewFile" + ".dfpwm";
+        String filePath = ".\\" + args[0].toString();
+        String newFile = filePath.toString() + ".dfpwm";
         try {
             convert(filePath, newFile, true);
         } catch (UnsupportedAudioFileException e) {
